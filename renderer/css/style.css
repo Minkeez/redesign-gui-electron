@@ -1,0 +1,27 @@
+nav, #camera-section {
+  background: #9ad6a7;
+}
+
+#roi-section {
+  background: #ddefd8;
+}
+
+.nav-link-custom {
+  font-size: 28px;
+}
+
+.roi-box {
+  background-color: #ccc;
+  margin-bottom: 15px;
+  height: 35vh;
+  
+}
+
+.button-show {
+  background-color: #9ad6a7;
+  border-radius: 10px;
+}
+
+.button-check-x {
+  background-color: transparent;
+}
