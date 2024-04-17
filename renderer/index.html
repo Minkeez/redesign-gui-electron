@@ -15,6 +15,7 @@
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/style.css" />
+
     <title>SSCs Application</title>
   </head>
   <body>
@@ -27,7 +28,7 @@
 
         <div class="navbar-nav">
           <li class="nav-item me-5">
-            <a href="#" class="nav-link text-dark nav-link-custom">Home</a>
+            <a href="/renderer/index.html" class="nav-link text-dark nav-link-custom">Home</a>
           </li>
           <li class="nav-item me-5">
             <a href="#" class="nav-link text-dark nav-link-custom"
@@ -35,7 +36,7 @@
             >
           </li>
           <li class="nav-item me-5">
-            <a href="#" class="nav-link text-dark nav-link-custom"
+            <a href="cal.html" class="nav-link text-dark nav-link-custom"
               >Calibration</a
             >
           </li>
@@ -57,9 +58,15 @@
           <div class="mb-5">
             <h2>Camera 1</h5>
               <h5>> Input Reference Image</h5>
-              <div style="background-color: #fff; margin: 15px 0; height: 50px;"></div>
+                <input id="leftRefInput" type="file" accept="image/*">
+                <div style="background-color: #fff; margin: 15px 0; height: 50px;"></div>
               <h5>> Input Deformed Image</h5>
-              <div style="background-color: #fff; height: 150px;"></div>
+                <input id="leftDefInput" type="file" accept="image/*" multiple>
+                <div id="defImageListLeftContainer" class="def-image-list-container">
+                  <ul id="defImageListLeft" class="def-image-ul">
+                  </ul>
+                </div>
+                <div style="background-color: #fff; margin: 15px 0; height: 50px;"></div>
           </div>
           <div>
             <h2>Camera 2</h5>
@@ -67,6 +74,7 @@
               <div style="background-color: #fff; margin: 15px 0; height: 50px;"></div>
               <h5>> Input Deformed Image</h5>
               <div style="background-color: #fff; height: 150px;"></div>
+
           </div>
         </div>
         <!-- ROI & Console section -->
