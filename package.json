@@ -10,6 +10,7 @@
   "author": "HourCode",
   "license": "MIT",
   "devDependencies": {
+    "@electron/remote": "^x.x.x",
     "electron": "^29.3.0"
   }
 }

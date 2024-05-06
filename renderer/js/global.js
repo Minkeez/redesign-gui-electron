@@ -6,7 +6,7 @@
 var workingDirectory = "undefined";
 var linux_path = "";
 var darwin_path = "/Applications/DICe.app/Contents/Resources/app/bin/";
-var win_path = "D:\\Program Files (x86)\\Digital Image Correlation Engine\\";
+var win_path = "C:\\Program Files (x86)\\Digital Image Correlation Engine\\";
 
 var execPath;
 var execCrossInitPath;
